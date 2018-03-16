@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <div class="header">
+        <header id="title">CST 356 Week 6 Lab</header>
+        <nav id="nav-links">
+            <a href="/Index.html">Home</a>
+            <a href="/Registration.html">Registration</a>
+            <a href="/Help.html">Help</a>
+        </nav>
+    </div>
+    <div class="body">
+        <h4>Registration</h4>
+        <hr />
+        <div>
+            <form id="form" name="registration">
+                <div id="entry-top">
+                    <label id="entry-top">First Name</label>
+                    <div class="col-md-10">
+                        <input name="FirstName" type="text" value="" />
+
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <label>Last Name</label>
+                    <div>
+                        <input name="LastName" type="text" value="" />
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <label>Age</label>
+                    <div>
+                        <input name="Age" type="number" value="" />
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <label>Years In School</label>
+                    <div>
+                        <input type="radio" name="YearsInSchool" value="0" checked />0
+                        <input type="radio" name="YearsInSchool" value="1" />1
+                        <input type="radio" name="YearsInSchool" value="2" />2
+                        <input type="radio" name="YearsInSchool" value="3" />3
+                        <input type="radio" name="YearsInSchool" value="4" />4
+                    </div>
+                </div>
+
+                <div id="entry-bottom">
+                        <button id="submit-button" type="button" value="Register" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+            <div id="results">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer id="title">©LatentDev - 2018</footer>
+    </div>
+    <script src="/Scripts/app.js"></script>
+</body>
+</html>

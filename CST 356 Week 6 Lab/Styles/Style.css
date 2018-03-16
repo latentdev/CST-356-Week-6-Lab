@@ -1,0 +1,138 @@
+﻿body {
+    background-color: #4c4c4c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+header {
+    background-color: #222222;
+}
+
+label {
+    background-color: #222222;
+    width: inherit;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form {
+    display: inline-block;
+    background-color: #333333;
+    border-radius: 10px;
+    border: 1px solid #222222;
+}
+
+input {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table{
+    background-color:#222222;
+    border-radius:5px;
+    border: 1px solid #222222;
+    border-collapse:separate;
+}
+
+tr{
+    background-color:#333333;
+    padding:5px;
+    border-bottom:none;
+    border-top:none;
+}
+
+th{
+    background-color:#222222;
+    text-align:left;
+}
+
+a:link{
+    color:white;
+}
+
+a {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+.header {
+    background-color: #333333;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+
+}
+
+.body {
+    margin: 10px;
+}
+
+.entry {
+    background-color: #333333;
+}
+
+#entry-top {
+    background-color: #222222;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #222222;
+}
+
+#entry-bottom {
+    background-color: #333333;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #333333;
+}
+
+#submit-button {
+    width: -webkit-fill-available;
+    padding: 5px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#title {
+    display: inline-block;
+    background-color: #222222;
+    padding: 10px;
+    padding-right:15px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+}
+#nav-links {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px;
+    background-color:#333333;
+    height:100%;
+}
+
+#results {
+    display: block;
+    background-color: #333333;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    visibility:hidden;
+    margin:0;
+    margin-top:10px;
+}
